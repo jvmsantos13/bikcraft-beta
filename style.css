@@ -1,37 +1,78 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
+  margin: 50px;
 }
 
-.logo {
-  text-align: center;
-  margin: 25px;
-  padding-bottom: 30px;
-}
+/*HEADER - LOGO E MENU*/
 
 a {
   text-decoration: none;
   color: black;
   padding: 15px;
-  margin: 5px;
+  margin: 10px;
   background-color: white;
-  
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.logo {
+  text-align: center;
+  margin: 25px;
+  padding-bottom: 10px;
+}
+
+.menu {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*MAIN - CONTEUDOS*/
+
+p {
+  font-size: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+h2 {
+  display: inline-block;
+  margin: 5px;
+}
+
+.conteudo-1 {
+  background-color: white;
+}
+
+.botao {
+  background-color: #ee2211;
+  color: white;
+  font-size: 16px;
+}
+
+.conteudo-3 {
+  background-color: #f7f7f7;
+}
+
+.vantagens-titulo {
+  font-size: 64px;
+  color: #c6c6c6;
+}
+
+.conteudo-4 {
+  background-color: white;
+  display: inline;
 }
 
 
+/*FOOTER*/
 
+footer {
+  text-align: center;
+  background-color: white;
 
-
-
-
-/*
-cinza: #f7f7f7
-cinza-escuro: #c6c6c6
-vermelho: #ee2211
-
-fonte: Arial
-parágrafps: 20px
-vantagens: 64px
-
-conteúdo principal: máximo 1000px
-*/
+}

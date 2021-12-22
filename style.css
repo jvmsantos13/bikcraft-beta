@@ -1,3 +1,37 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
 }
+
+.logo {
+  text-align: center;
+  margin: 25px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+  
+}
+
+
+
+
+
+
+
+/*
+cinza: #f7f7f7
+cinza-escuro: #c6c6c6
+vermelho: #ee2211
+
+fonte: Arial
+parágrafps: 20px
+vantagens: 64px
+
+conteúdo principal: máximo 1000px
+*/

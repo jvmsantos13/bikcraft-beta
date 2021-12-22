@@ -1,78 +1,105 @@
+/*ESTILIZAÇÕES GERAIS*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
-  margin: 50px;
+  margin: 0;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
 }
 
-/*HEADER - LOGO E MENU*/
-
-a {
-  text-decoration: none;
-  color: black;
-  padding: 15px;
-  margin: 10px;
-  background-color: white;
-  border-radius: 4px;
-  display: inline-block;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-.logo {
-  text-align: center;
-  margin: 25px;
-  padding-bottom: 10px;
+p, h1, h2, h3 {
+  margin: 0;
 }
-
-.menu {
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-/*MAIN - CONTEUDOS*/
 
 p {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+/*HEADER - LOGO E MENU*/
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu a {
+  padding: 15px 30px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #000000;
+}
+
+/*MAIN - CONTEUDOS*/
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-h2 {
-  display: inline-block;
-  margin: 5px;
+  max-width: 1000px;
 }
 
 .conteudo-1 {
-  background-color: white;
+  background-color: #ffffff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  justify-items: end;
 }
 
 .botao {
-  background-color: #ee2211;
-  color: white;
-  font-size: 16px;
+  background-color: #e21e21;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 4px;
 }
 
 .conteudo-3 {
-  background-color: #f7f7f7;
-}
-
-.vantagens-titulo {
   font-size: 64px;
-  color: #c6c6c6;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
 }
 
 .conteudo-4 {
-  background-color: white;
-  display: inline;
+  background-color: #ffffff;
+  padding: 40px;
+
 }
 
+.motor-eletrico, .velocidade, .rastreador {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.motor-eletrico, .velocidade, .rastreador p {
+  grid-column: 2;
+}
 
 /*FOOTER*/
 
-footer {
+.rodape {
+  background-color: #ffffff;
+  width: 100%;
   text-align: center;
-  background-color: white;
-
+  padding: 40px;
+  box-sizing: border-box;
 }

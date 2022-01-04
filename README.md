@@ -1,5 +1,5 @@
 ## Bikcraft
-<p align="center">Site Beta Bikcraft, feito como se fosse um wireframe para o projeto final.</p>
+<p align="center">Site Beta Bikcraft, exercício proposto no curso online. Conceitos de posicionamento e alinhamento de conteúdos.</p>
 
 ### 🛠 Tecnologias
 

@@ -1,15 +1,104 @@
-/*
-Cores
+/*GERAIS*/
 
-cinza: #f7f7f7
-cinza-escuro: #c6c6c6
-vermelho: #ee2211
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  display: grid;
+  gap: 50px;
+  justify-items: center;
+  margin-top: 50px;
+}
 
-Tipografia
+a {
+  text-decoration: none;
+}
 
-fonte: Arial
-parágrafos: 20px
-vantagens bikcraft: 64px
+img {
+  max-width: 100%;
+  display: block;
+}
 
-conteúdo principal: máximo 1000px
-*/
+p {
+  font-size: 20px;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+/*HEADER*/
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu a {
+  color: black;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/*MAIN*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  background: #ffffff;
+  padding: 40px;
+  text-align: right;
+  gap: 20px;
+  display: grid;
+  align-content: center;
+  justify-items: end;
+}
+
+.botao {
+  background: #ee2211;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px; 
+}
+
+.subtitulo {
+  font-size: 64px;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.vantagens {
+  background: #ffffff;
+  padding: 40px;
+
+}
+
+.vantagens-items{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-items p {
+  grid-column: 2;
+}
+
+/*FOOTER*/
+
+.paragrafo {
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}

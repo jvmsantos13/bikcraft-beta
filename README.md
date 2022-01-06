@@ -9,10 +9,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - CSS
 
 <h4 align="center"> 
-:construction: Projeto em desenvolvimento :construction:
+:computer: Projeto concluído :heavy_check_mark:
 </h4>
-
-<!-- ![Página](-) -->
 
 *Link do projeto:* https://jvmsantos13.github.io/bikcraft-beta/
 
